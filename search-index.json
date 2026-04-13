@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/",
+    "title": "DeFi Orbit - Official Docs ",
+    "description": "Official DeFi Orbit documentation. Complete guides for tracking multi-chain liquidity positions, API integration, feature tutorials, and platform updates.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/404",
+    "title": "DeFi Orbit - Docs &amp; Changelog",
+    "description": "",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/changelog",
+    "title": "DeFi Orbit - Docs &amp; Changelog",
+    "description": "",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/founding-charter-members",
+    "title": "Founding &amp; Charter Members - DeFi Orbit Docs",
+    "description": "DeFi Orbit recognizes and honors our earliest believers—the users who had faith in our vision before the masses arrived. These special membership tiers celebrate the people who supported us from the beginning.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/invite-codes",
+    "title": "Invite Codes - DeFi Orbit Docs",
+    "description": "DeFi Orbit is currently in beta and available through an invite-only system. This page covers everything you need to know about getting and using your invite code.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/key-features",
+    "title": "Key Features - DeFi Orbit Docs",
+    "description": "DeFi Orbit gives you everything you need to track, analyze, and optimize your liquidity positions across multiple chains. Here",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/lending-borrowing-cards-dashboard",
+    "title": "Lending &amp; Borrowing Cards (Dashboard) - DeFi Orbit Docs",
+    "description": "Monitor your lending and borrowing positions across protocols with real-time health factor tracking and risk assessment.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/portfolio-dashboard-pools",
+    "title": "Portfolio Dashboard (Pools)  - DeFi Orbit Docs",
+    "description": "Your Portfolio Dashboard is the command center for monitoring all your DeFi positions. It provides a real-time overview of your liquidity pools, lending positions, and overall portfolio performance across all supported chains.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/position-cards-dashboard",
+    "title": "Position Cards (Dashboard) - DeFi Orbit Docs",
+    "description": "View comprehensive information about individual liquidity positions by clicking on any position card in your dashboard.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/quick-start-guide",
+    "title": "Quick Start Guide - DeFi Orbit Docs",
+    "description": "Get started with DeFi Orbit in just a few minutes. Follow these simple steps to connect your wallet and start tracking your DeFi positions.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/risk-profile-assessment",
+    "title": "Risk Profile Assessment - DeFi Orbit Docs",
+    "description": "Understand your DeFi investing style and get personalized portfolio guidance based on your risk profile.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/static",
+    "title": "Privacy Policy - SquareDocs",
+    "description": "We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website. By accessing our site, you agree to this policy.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/updating-your-username",
+    "title": "Updating Your Username - DeFi Orbit Docs",
+    "description": "Change your DeFi Orbit username anytime from your account settings.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/updating-your-yield-income-target",
+    "title": "Updating your Yield Income Target - DeFi Orbit Docs",
+    "description": "Change your annual yield income goal anytime to reflect your evolving investment strategy.",
+    "excerpt": "Documentation"
+  },
+  {
+    "path": "/what-is-defi-orbit",
+    "title": "What is DeFi Orbit? - DeFi Orbit Docs",
+    "description": "DeFi Orbit is a multi-chain portfolio management platform built specifically for liquidity providers. We help you track, analyze, and optimize your DeFi positions across multiple blockchains—all in one place.\n",
+    "excerpt": "Documentation"
+  }
+]

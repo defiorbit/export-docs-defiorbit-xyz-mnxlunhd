@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>index.html</loc></url>
+  <url><loc>404/index.html</loc></url>
+  <url><loc>changelog/index.html</loc></url>
+  <url><loc>changelog/lending-borrowing-dashboard/index.html</loc></url>
+  <url><loc>founding-charter-members/index.html</loc></url>
+  <url><loc>invite-codes/index.html</loc></url>
+  <url><loc>key-features/index.html</loc></url>
+  <url><loc>lending-borrowing-cards-dashboard/index.html</loc></url>
+  <url><loc>portfolio-dashboard-pools/index.html</loc></url>
+  <url><loc>position-cards-dashboard/index.html</loc></url>
+  <url><loc>quick-start-guide/index.html</loc></url>
+  <url><loc>risk-profile-assessment/index.html</loc></url>
+  <url><loc>static/privacy-policy/index.html</loc></url>
+  <url><loc>static/terms-of-service/index.html</loc></url>
+  <url><loc>updating-your-username/index.html</loc></url>
+  <url><loc>updating-your-yield-income-target/index.html</loc></url>
+  <url><loc>what-is-defi-orbit/index.html</loc></url>
+</urlset>

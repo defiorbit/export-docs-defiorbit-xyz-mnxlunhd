@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Search</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; color: #1a1a2e; padding: 2rem; }
+.search-container { max-width: 640px; margin: 0 auto; }
+h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+input[type="search"] { width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border: 2px solid #e2e8f0; border-radius: 8px; outline: none; transition: border-color 0.2s; }
+input[type="search"]:focus { border-color: #6366f1; }
+.results { margin-top: 1.5rem; }
+.result-item { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; text-decoration: none; display: block; color: inherit; transition: box-shadow 0.2s; }
+.result-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.result-title { font-weight: 600; color: #4f46e5; margin-bottom: 0.25rem; }
+.result-path { font-size: 0.8rem; color: #64748b; margin-bottom: 0.25rem; }
+.result-excerpt { font-size: 0.9rem; color: #475569; }
+.no-results { color: #94a3b8; text-align: center; padding: 2rem 0; }
+.count { font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.75rem; }
+</style>
+</head>
+<body>
+<div class="search-container">
+<h1>Search</h1>
+<input type="search" id="q" placeholder="Search pages..." autofocus>
+<div class="results" id="results"></div>
+</div>
+<script>
+(function() {
+var pages = [{"path":"/","title":"DeFi Orbit - Official Docs ","description":"Official DeFi Orbit documentation. Complete guides for tracking multi-chain liquidity positions, API integration, feature tutorials, and platform updates.","excerpt":"Documentation"},{"path":"/404","title":"DeFi Orbit - Docs &amp; Changelog","description":"","excerpt":"Documentation"},{"path":"/changelog","title":"DeFi Orbit - Docs &amp; Changelog","description":"","excerpt":"Documentation"},{"path":"/founding-charter-members","title":"Founding &amp; Charter Members - DeFi Orbit Docs","description":"DeFi Orbit recognizes and honors our earliest believers—the users who had faith in our vision before the masses arrived. These special membership tiers celebrate the people who supported us from the beginning.","excerpt":"Documentation"},{"path":"/invite-codes","title":"Invite Codes - DeFi Orbit Docs","description":"DeFi Orbit is currently in beta and available through an invite-only system. This page covers everything you need to know about getting and using your invite code.","excerpt":"Documentation"},{"path":"/key-features","title":"Key Features - DeFi Orbit Docs","description":"DeFi Orbit gives you everything you need to track, analyze, and optimize your liquidity positions across multiple chains. Here","excerpt":"Documentation"},{"path":"/lending-borrowing-cards-dashboard","title":"Lending &amp; Borrowing Cards (Dashboard) - DeFi Orbit Docs","description":"Monitor your lending and borrowing positions across protocols with real-time health factor tracking and risk assessment.","excerpt":"Documentation"},{"path":"/portfolio-dashboard-pools","title":"Portfolio Dashboard (Pools)  - DeFi Orbit Docs","description":"Your Portfolio Dashboard is the command center for monitoring all your DeFi positions. It provides a real-time overview of your liquidity pools, lending positions, and overall portfolio performance across all supported chains.","excerpt":"Documentation"},{"path":"/position-cards-dashboard","title":"Position Cards (Dashboard) - DeFi Orbit Docs","description":"View comprehensive information about individual liquidity positions by clicking on any position card in your dashboard.","excerpt":"Documentation"},{"path":"/quick-start-guide","title":"Quick Start Guide - DeFi Orbit Docs","description":"Get started with DeFi Orbit in just a few minutes. Follow these simple steps to connect your wallet and start tracking your DeFi positions.","excerpt":"Documentation"},{"path":"/risk-profile-assessment","title":"Risk Profile Assessment - DeFi Orbit Docs","description":"Understand your DeFi investing style and get personalized portfolio guidance based on your risk profile.","excerpt":"Documentation"},{"path":"/static","title":"Privacy Policy - SquareDocs","description":"We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website. By accessing our site, you agree to this policy.","excerpt":"Documentation"},{"path":"/updating-your-username","title":"Updating Your Username - DeFi Orbit Docs","description":"Change your DeFi Orbit username anytime from your account settings.","excerpt":"Documentation"},{"path":"/updating-your-yield-income-target","title":"Updating your Yield Income Target - DeFi Orbit Docs","description":"Change your annual yield income goal anytime to reflect your evolving investment strategy.","excerpt":"Documentation"},{"path":"/what-is-defi-orbit","title":"What is DeFi Orbit? - DeFi Orbit Docs","description":"DeFi Orbit is a multi-chain portfolio management platform built specifically for liquidity providers. We help you track, analyze, and optimize your DeFi positions across multiple blockchains—all in one place.\n","excerpt":"Documentation"}];
+var input = document.getElementById('q');
+var resultsEl = document.getElementById('results');
+
+function search(query) {
+    if (!query || query.length < 2) { resultsEl.innerHTML = ''; return; }
+    var q = query.toLowerCase();
+    var matches = pages.filter(function(p) {
+        return (p.title && p.title.toLowerCase().indexOf(q) !== -1) ||
+               (p.description && p.description.toLowerCase().indexOf(q) !== -1) ||
+               (p.excerpt && p.excerpt.toLowerCase().indexOf(q) !== -1);
+    });
+    if (matches.length === 0) {
+        resultsEl.innerHTML = '<div class="no-results">No results found.</div>';
+        return;
+    }
+    var html = '<div class="count">' + matches.length + ' result(s)</div>';
+    matches.forEach(function(p) {
+        var href = p.path === '/' ? 'index.html' : p.path.replace(/^\//, '') + '/index.html';
+        html += '<a class="result-item" href="' + href + '">' +
+            '<div class="result-title">' + esc(p.title || 'Untitled') + '</div>' +
+            '<div class="result-path">' + esc(p.path) + '</div>' +
+            '<div class="result-excerpt">' + esc(p.excerpt || p.description || '') + '</div>' +
+            '</a>';
+    });
+    resultsEl.innerHTML = html;
+}
+
+function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+input.addEventListener('input', function() { search(this.value); });
+})();
+</script>
+</body>
+</html>

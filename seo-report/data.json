@@ -1,0 +1,457 @@
+[
+  {
+    "url": "https://docs.defiorbit.xyz/changelog",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (29 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "DeFi Orbit - Docs & Changelog",
+      "description": null,
+      "canonical": "https://docs.defiorbit.xyz/changelog",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/404",
+    "score": 82,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (29 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "DeFi Orbit - Docs & Changelog",
+      "description": null,
+      "canonical": "https://docs.defiorbit.xyz/404",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/changelog/lending-borrowing-dashboard",
+    "score": 85,
+    "issues": [
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Lending & Borrowing Dashboard - SquareDocs",
+      "description": null,
+      "canonical": "https://docs.defiorbit.xyz/changelog/lending-borrowing-dashboard",
+      "ogImage": "https://framerusercontent.com/images/7snzQQVQ6LP845QAOK3WP6VHo8.png?width=1200&height=630"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/portfolio-dashboard-pools",
+    "score": 87,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too long (226 chars). May be truncated."
+      },
+      {
+        "type": "warning",
+        "message": "Multiple <h1> tags found (2). Best practice is to have only one."
+      },
+      {
+        "type": "warning",
+        "message": "3 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Portfolio Dashboard (Pools)  - DeFi Orbit Docs",
+      "description": "Your Portfolio Dashboard is the command center for monitoring all your DeFi positions. It provides a real-time overview of your liquidity pools, lending positions, and overall portfolio performance across all supported chains.",
+      "canonical": "https://docs.defiorbit.xyz/portfolio-dashboard-pools",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/lending-borrowing-cards-dashboard",
+    "score": 93,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Multiple <h1> tags found (2). Best practice is to have only one."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Lending & Borrowing Cards (Dashboard) - DeFi Orbit Docs",
+      "description": "Monitor your lending and borrowing positions across protocols with real-time health factor tracking and risk assessment.",
+      "canonical": "https://docs.defiorbit.xyz/lending-borrowing-cards-dashboard",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/static/privacy-policy",
+    "score": 93,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (27 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too long (231 chars). May be truncated."
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Privacy Policy - SquareDocs",
+      "description": "We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website. By accessing our site, you agree to this policy.",
+      "canonical": "https://docs.defiorbit.xyz/static/privacy-policy",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/founding-charter-members",
+    "score": 94,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too long (209 chars). May be truncated."
+      },
+      {
+        "type": "warning",
+        "message": "2 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Founding & Charter Members - DeFi Orbit Docs",
+      "description": "DeFi Orbit recognizes and honors our earliest believers—the users who had faith in our vision before the masses arrived. These special membership tiers celebrate the people who supported us from the beginning.",
+      "canonical": "https://docs.defiorbit.xyz/founding-charter-members",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (26 chars). Aim for 50-60 characters."
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "DeFi Orbit - Official Docs",
+      "description": "Official DeFi Orbit documentation. Complete guides for tracking multi-chain liquidity positions, API integration, feature tutorials, and platform updates.",
+      "canonical": "https://docs.defiorbit.xyz/",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/position-cards-dashboard",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too short (119 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Position Cards (Dashboard) - DeFi Orbit Docs",
+      "description": "View comprehensive information about individual liquidity positions by clicking on any position card in your dashboard.",
+      "canonical": "https://docs.defiorbit.xyz/position-cards-dashboard",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/risk-profile-assessment",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too short (104 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Risk Profile Assessment - DeFi Orbit Docs",
+      "description": "Understand your DeFi investing style and get personalized portfolio guidance based on your risk profile.",
+      "canonical": "https://docs.defiorbit.xyz/risk-profile-assessment",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/static/terms-of-service",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (29 chars). Aim for 50-60 characters."
+      }
+    ],
+    "passed": [
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Terms of Service - SquareDocs",
+      "description": "By accessing or using SquareDocs, you agree to comply with these Terms of Service. If you disagree, do not use the site.",
+      "canonical": "https://docs.defiorbit.xyz/static/terms-of-service",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/updating-your-username",
+    "score": 95,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too short (67 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Updating Your Username - DeFi Orbit Docs",
+      "description": "Change your DeFi Orbit username anytime from your account settings.",
+      "canonical": "https://docs.defiorbit.xyz/updating-your-username",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/updating-your-yield-income-target",
+    "score": 97,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too short (90 chars). Aim for 150-160 characters."
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "All images have alt attributes",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Updating your Yield Income Target - DeFi Orbit Docs",
+      "description": "Change your annual yield income goal anytime to reflect your evolving investment strategy.",
+      "canonical": "https://docs.defiorbit.xyz/updating-your-yield-income-target",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/key-features",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Key Features - DeFi Orbit Docs",
+      "description": "DeFi Orbit gives you everything you need to track, analyze, and optimize your liquidity positions across multiple chains. Here's what makes our platform different.",
+      "canonical": "https://docs.defiorbit.xyz/key-features",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/what-is-defi-orbit",
+    "score": 98,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Meta description too long (208 chars). May be truncated."
+      }
+    ],
+    "passed": [
+      "Title tag is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "What is DeFi Orbit? - DeFi Orbit Docs",
+      "description": "DeFi Orbit is a multi-chain portfolio management platform built specifically for liquidity providers. We help you track, analyze, and optimize your DeFi positions across multiple blockchains—all in one place.",
+      "canonical": "https://docs.defiorbit.xyz/what-is-defi-orbit",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/invite-codes",
+    "score": 100,
+    "issues": [],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Invite Codes - DeFi Orbit Docs",
+      "description": "DeFi Orbit is currently in beta and available through an invite-only system. This page covers everything you need to know about getting and using your invite code.",
+      "canonical": "https://docs.defiorbit.xyz/invite-codes",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  },
+  {
+    "url": "https://docs.defiorbit.xyz/quick-start-guide",
+    "score": 100,
+    "issues": [],
+    "passed": [
+      "Title tag is properly configured",
+      "Meta description is properly configured",
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Quick Start Guide - DeFi Orbit Docs",
+      "description": "Get started with DeFi Orbit in just a few minutes. Follow these simple steps to connect your wallet and start tracking your DeFi positions.",
+      "canonical": "https://docs.defiorbit.xyz/quick-start-guide",
+      "ogImage": "https://framerusercontent.com/assets/7Y2Ug4NGfn5eJrnhcW8O61uh2bE.jpg"
+    }
+  }
+]
